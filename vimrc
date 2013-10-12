@@ -47,6 +47,11 @@ set expandtab
 set number
 set pdev=pdf
 set encoding=utf-8
+set hidden
+set hlsearch
+set incsearch
+set nobackup
+set noswapfile
 set printoptions=paper:letter,syntax:n,number:y,wrap:y,left:10mm,right:10mm
 if has("gui_running")
     " GUI is running is about to start.
