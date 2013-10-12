@@ -46,6 +46,7 @@ set shiftwidth=4
 set expandtab
 set number
 set pdev=pdf
+set encoding=utf-8
 set printoptions=paper:letter,syntax:n,number:y,wrap:y,left:10mm,right:10mm
 if has("gui_running")
     " GUI is running is about to start.
@@ -65,4 +66,8 @@ map <C-n> :NERDTreeToggle<CR>
 "On redéfinit <leader> à _
 let mapleader = "_"
 
+"Pour airline - pour afficher à l'ouverture
+set laststatus=2
+let g:airline_powerline_fonts = 1
+set nocompatible
 " ~/.vimrc ends here
